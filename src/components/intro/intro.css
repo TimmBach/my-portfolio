@@ -1,0 +1,121 @@
+.intro {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.intro .left {
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  overflow: hidden;
+}
+
+.intro .left .imgContainer {
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  float: right;
+}
+
+.intro .left .imgContainer img {
+  height: 90%;
+  width: 90%;
+  border-radius: 100%;
+}
+
+.intro .right {
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  position: relative;
+}
+
+.intro .right .wrapper {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.intro .right .wrapper h1 {
+  font-size: 60px;
+  margin: 10px 0;
+}
+
+.intro .right .wrapper h2 {
+  font-size: 35px;
+}
+
+.intro .right .wrapper h3 {
+  font-size: 30px;
+}
+
+.intro .right .wrapper h3 span {
+  color: crimson;
+}
+
+.intro .right .wrapper h3 .ityped-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.3s infinite;
+          animation: blink 0.3s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}
+
+.intro .right a {
+  position: absolute;
+  bottom: 10px;
+  left: 20%;
+}
+
+.intro .right a img {
+  width: 60px;
+  -webkit-animation: arrowBlink 1s infinite;
+          animation: arrowBlink 1s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes arrowBlink {
+  100% {
+    opacity: 0.1;
+  }
+}
+
+@keyframes arrowBlink {
+  100% {
+    opacity: 0.1;
+  }
+}
+/*# sourceMappingURL=intro.css.map */
